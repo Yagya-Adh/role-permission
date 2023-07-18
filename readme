@@ -1,0 +1,8 @@
+    
+    
+    
+    sail composer require spatie/laravel-permission
+
+    php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+
+    php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="config"
